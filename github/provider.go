@@ -162,7 +162,7 @@ func Provider() terraform.ResourceProvider {
 			"github_ref":                                     dataSourceGithubRef(),
 			"github_release":                                 dataSourceGithubRelease(),
 			"github_repositories":                            dataSourceGithubRepositories(),
-			"github_repositories_v2":               		  dataSourceGithubRepositoriesV2(),
+			"github_repositories_v2":                         dataSourceGithubRepositoriesV2(),
 			"github_repository":                              dataSourceGithubRepository(),
 			"github_repository_branches":                     dataSourceGithubRepositoryBranches(),
 			"github_repository_deploy_keys":                  dataSourceGithubRepositoryDeployKeys(),
